@@ -1,0 +1,201 @@
+
+body {
+  color: #40514E;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #507DAD;
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+h2 {
+  color: #507DAD;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #507DAD;
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+  font-weight: bold;
+  line-height: 2;
+}
+
+
+/* ====================================================================== */
+/* CONTAINERS */
+
+.blue-container {
+  background: linear-gradient(#80cde9, #eaeff3);
+  color: #507DAD;
+  padding-top: 50px;
+  position: relative;
+}
+
+.white-container {
+  padding: 100px 0;
+}
+
+
+/* ====================================================================== */
+/* INTRO */
+
+.top-cloud {
+  position: absolute;
+  right: 5%;
+  top: 40px;
+  width: 28%;
+}
+
+.bottom-cloud {
+  left: 5%;
+  position: absolute;
+  top: 200px;
+  width: 23%;
+}
+
+.birds {
+  left: 15%;
+  position: absolute;
+  top: 350px;
+  width: 5%;
+}
+
+.mountain-img {
+  width: 100%;
+}
+
+
+/* ====================================================================== */
+/* PROFILE */
+
+.profile-pic {
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+  width: 33%;
+}
+
+
+.profile-text {
+  text-align: left;
+}
+
+/* ====================================================================== */
+/* SKILLS */
+
+.skills {
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.icon-left {
+  border-radius: 10%;
+  float: left;
+  margin-right: 30px;
+  width: 28%;
+}
+
+.icon-right {
+  border-radius: 10%;
+  float: right;
+  margin-left: 30px;
+  width: 28%;
+}
+
+
+/* ====================================================================== */
+/* GET IN TOUCH */
+
+.contact-me {
+  margin: 40px auto;
+  width: 40%;
+}
+
+
+/* ====================================================================== */
+/* CONTACT-ME BUTTON */
+
+a {
+  color: #28742c;
+  font-family: 'Acme', sans-serif;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #28742c;
+}
+
+.btn {
+  background: #87c656;
+  background-image: -webkit-linear-gradient(top, #87c656, #3e963c);
+  background-image: -moz-linear-gradient(top, #87c656, #3e963c);
+  background-image: -ms-linear-gradient(top, #87c656, #3e963c);
+  background-image: -o-linear-gradient(top, #87c656, #3e963c);
+  background-image: linear-gradient(to bottom, #87c656, #3e963c);
+  background-image: -webkit-gradient(top, #87c656, #3e963c);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Acme', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 15px;
+  border: solid #87c656 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #87c656 1px;
+  background: #87c656;
+  background-image: -webkit-linear-gradient(top, #87c656, #87c656);
+  background-image: -moz-linear-gradient(top, #87c656, #87c656);
+  background-image: -ms-linear-gradient(top, #87c656, #87c656);
+  background-image: -o-linear-gradient(top, #87c656, #87c656);
+  background-image: linear-gradient(to bottom, #87c656, #87c656);
+  background-image: -webkit-gradient(top, #87c656, #3e963c);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+
+/* ====================================================================== */
+/* FOOTER */
+
+.footer-copyright {
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  color: #507DAD;
+  font-family: 'Acme', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
