@@ -27,6 +27,7 @@ h3 {
 }
 
 p {
+  font-size: 1.10rem;
   font-weight: bold;
   line-height: 2;
 }
@@ -82,8 +83,9 @@ p {
 .profile-pic {
   border-radius: 10%;
   float: left;
-  margin-right: 30px;
-  width: 33%;
+  margin: 25px 0;
+  margin-right: 35px;
+  width: 40%;
 }
 
 
